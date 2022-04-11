@@ -12,7 +12,10 @@
 		06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D4FD28045202001BB6FA /* Assets.xcassets */; };
 		06A4D50128045202001BB6FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D50028045202001BB6FA /* Preview Assets.xcassets */; };
 		06A4D50828045227001BB6FA /* SenseiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4D50728045227001BB6FA /* SenseiParser.swift */; };
-		06A4D50A280452C8001BB6FA /* testDataSensei.json in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D509280452C8001BB6FA /* testDataSensei.json */; };
+		06A4D50A280452C8001BB6FA /* testDataSensei2061.json in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D509280452C8001BB6FA /* testDataSensei2061.json */; };
+		06D69DE028047D840010C129 /* testDataSensei1851.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D69DDF28047D830010C129 /* testDataSensei1851.json */; };
+		06D69DE22804999F0010C129 /* testDataSensei2062.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D69DE12804999F0010C129 /* testDataSensei2062.json */; };
+		06D69DE4280499BB0010C129 /* testDataSensei1852.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D69DE3280499BB0010C129 /* testDataSensei1852.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +25,10 @@
 		06A4D4FD28045202001BB6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06A4D50028045202001BB6FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06A4D50728045227001BB6FA /* SenseiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseiParser.swift; sourceTree = "<group>"; };
-		06A4D509280452C8001BB6FA /* testDataSensei.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei.json; sourceTree = "<group>"; };
+		06A4D509280452C8001BB6FA /* testDataSensei2061.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei2061.json; sourceTree = "<group>"; };
+		06D69DDF28047D830010C129 /* testDataSensei1851.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei1851.json; sourceTree = "<group>"; };
+		06D69DE12804999F0010C129 /* testDataSensei2062.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei2062.json; sourceTree = "<group>"; };
+		06D69DE3280499BB0010C129 /* testDataSensei1852.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei1852.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 				06A4D4FD28045202001BB6FA /* Assets.xcassets */,
 				06A4D4FF28045202001BB6FA /* Preview Content */,
 				06A4D50728045227001BB6FA /* SenseiParser.swift */,
-				06A4D509280452C8001BB6FA /* testDataSensei.json */,
+				06A4D509280452C8001BB6FA /* testDataSensei2061.json */,
+				06D69DE12804999F0010C129 /* testDataSensei2062.json */,
+				06D69DDF28047D830010C129 /* testDataSensei1851.json */,
+				06D69DE3280499BB0010C129 /* testDataSensei1852.json */,
 			);
 			path = MoveSenseiData;
 			sourceTree = "<group>";
@@ -131,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A4D50A280452C8001BB6FA /* testDataSensei.json in Resources */,
+				06D69DE4280499BB0010C129 /* testDataSensei1852.json in Resources */,
+				06A4D50A280452C8001BB6FA /* testDataSensei2061.json in Resources */,
 				06A4D50128045202001BB6FA /* Preview Assets.xcassets in Resources */,
+				06D69DE028047D840010C129 /* testDataSensei1851.json in Resources */,
 				06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */,
+				06D69DE22804999F0010C129 /* testDataSensei2062.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
