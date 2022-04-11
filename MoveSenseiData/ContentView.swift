@@ -7,10 +7,23 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        var movesenseAcceleration: MovesenseAcceleration = load("testDataSensei.json")
+
+        ZStack {
+            Text("X: \(movesenseAcceleration.data[1].acc.arrayAcc[0].x)")
+                .padding()
+            Text("Y: \(movesenseAcceleration.data[1].acc.arrayAcc[0].y)")
+                .padding()
+            Text("Z: \(movesenseAcceleration.data[1].acc.arrayAcc[0].z)")
+                .padding()
+        }
+        
     }
 }
 

@@ -11,6 +11,8 @@
 		06A4D4FC280451FD001BB6FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4D4FB280451FD001BB6FA /* ContentView.swift */; };
 		06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D4FD28045202001BB6FA /* Assets.xcassets */; };
 		06A4D50128045202001BB6FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D50028045202001BB6FA /* Preview Assets.xcassets */; };
+		06A4D50828045227001BB6FA /* SenseiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4D50728045227001BB6FA /* SenseiParser.swift */; };
+		06A4D50A280452C8001BB6FA /* testDataSensei.json in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D509280452C8001BB6FA /* testDataSensei.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		06A4D4FB280451FD001BB6FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06A4D4FD28045202001BB6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06A4D50028045202001BB6FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06A4D50728045227001BB6FA /* SenseiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseiParser.swift; sourceTree = "<group>"; };
+		06A4D509280452C8001BB6FA /* testDataSensei.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataSensei.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				06A4D4FB280451FD001BB6FA /* ContentView.swift */,
 				06A4D4FD28045202001BB6FA /* Assets.xcassets */,
 				06A4D4FF28045202001BB6FA /* Preview Content */,
+				06A4D50728045227001BB6FA /* SenseiParser.swift */,
+				06A4D509280452C8001BB6FA /* testDataSensei.json */,
 			);
 			path = MoveSenseiData;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A4D50A280452C8001BB6FA /* testDataSensei.json in Resources */,
 				06A4D50128045202001BB6FA /* Preview Assets.xcassets in Resources */,
 				06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				06A4D4FC280451FD001BB6FA /* ContentView.swift in Sources */,
 				06A4D4FA280451FD001BB6FA /* MoveSenseiDataApp.swift in Sources */,
+				06A4D50828045227001BB6FA /* SenseiParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
