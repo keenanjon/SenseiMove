@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0600E2A82805607F00265E2D /* testDataElevator2061.json in Resources */ = {isa = PBXBuildFile; fileRef = 0600E2A72805607F00265E2D /* testDataElevator2061.json */; };
+		0600E2AA280560AA00265E2D /* testDataElevator2062.json in Resources */ = {isa = PBXBuildFile; fileRef = 0600E2A9280560AA00265E2D /* testDataElevator2062.json */; };
 		06A4D4FA280451FD001BB6FA /* MoveSenseiDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4D4F9280451FD001BB6FA /* MoveSenseiDataApp.swift */; };
 		06A4D4FC280451FD001BB6FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4D4FB280451FD001BB6FA /* ContentView.swift */; };
 		06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4D4FD28045202001BB6FA /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0600E2A72805607F00265E2D /* testDataElevator2061.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataElevator2061.json; sourceTree = "<group>"; };
+		0600E2A9280560AA00265E2D /* testDataElevator2062.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testDataElevator2062.json; sourceTree = "<group>"; };
 		06A4D4F6280451FD001BB6FA /* MoveSenseiData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveSenseiData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A4D4F9280451FD001BB6FA /* MoveSenseiDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSenseiDataApp.swift; sourceTree = "<group>"; };
 		06A4D4FB280451FD001BB6FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				06A4D4FF28045202001BB6FA /* Preview Content */,
 				06A4D50728045227001BB6FA /* SenseiParser.swift */,
 				06A4D509280452C8001BB6FA /* testDataSensei2061.json */,
+				0600E2A72805607F00265E2D /* testDataElevator2061.json */,
+				0600E2A9280560AA00265E2D /* testDataElevator2062.json */,
 				06D69DE12804999F0010C129 /* testDataSensei2062.json */,
 				06D69DDF28047D830010C129 /* testDataSensei1851.json */,
 				06D69DE3280499BB0010C129 /* testDataSensei1852.json */,
@@ -145,7 +151,9 @@
 				06A4D50128045202001BB6FA /* Preview Assets.xcassets in Resources */,
 				06D69DE028047D840010C129 /* testDataSensei1851.json in Resources */,
 				06A4D4FE28045202001BB6FA /* Assets.xcassets in Resources */,
+				0600E2A82805607F00265E2D /* testDataElevator2061.json in Resources */,
 				06D69DE22804999F0010C129 /* testDataSensei2062.json in Resources */,
+				0600E2AA280560AA00265E2D /* testDataElevator2062.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

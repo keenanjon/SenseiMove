@@ -34,6 +34,21 @@ struct ContentView: View {
         return sum / Double(moveSensei.data.count)
     }
     
+    func totalAccelerationElevator (sensorNumber: Int) -> Double {
+        let moveSensei: MovesenseAcceleration = load("testDataElevator\(sensorNumber).json")
+        var sum = 0.0
+        for i in 1...moveSensei.data.count {
+            let x = moveSensei.data[i - 1].acc.arrayAcc[0].x
+            let z = moveSensei.data[i - 1].acc.arrayAcc[0].z
+            let y = moveSensei.data[i - 1].acc.arrayAcc[0].y
+            
+            let sqrtXZ = sqrt(x*x + z*z)
+            let accXYZ = sqrt(y*y + sqrtXZ)
+            sum += accXYZ
+        }
+        return sum / Double(moveSensei.data.count)
+    }
+    
     
     func averageX (sensorNumber: Int) -> Double {
         let moveSensei: MovesenseAcceleration = load("testDataSensei\(sensorNumber).json")
@@ -70,7 +85,7 @@ struct ContentView: View {
         
         ScrollView {
             VStack {
-                Text("Measurement 1: ")
+                Text("Drill measurement 1: ")
                     .padding()
                 Text("Movesense 206: ")
                 Text("Total acceleration: \(totalAcceleration(sensorNumber: 2061))")
@@ -83,7 +98,7 @@ struct ContentView: View {
             }
             Spacer()
             VStack {
-                Text("Measurement 2: ")
+                Text("Drill measurement 2: ")
                     .padding()
                 Text("Movesense 206: ")
                 Text("Total acceleration: \(totalAcceleration(sensorNumber: 2062))")
@@ -91,6 +106,19 @@ struct ContentView: View {
     
                 Text("Movesense 185: ")
                 Text("Total acceleration: \(totalAcceleration(sensorNumber: 1852))")
+                    .padding()
+            }
+            Spacer()
+            VStack {
+                Text("Elevator measurement 1: ")
+                    .padding()
+                Text("Movesense 206: ")
+                Text("Total acceleration: \(totalAcceleration(sensorNumber: 2061))")
+                    .padding()
+                Spacer()
+                Text("Elevator measurement 2: ")
+                Text("Movesense 206: ")
+                Text("Total acceleration: \(totalAcceleration(sensorNumber: 2062))")
                     .padding()
             }
         }
